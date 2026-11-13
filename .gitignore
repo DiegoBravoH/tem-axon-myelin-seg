@@ -1,0 +1,33 @@
+# Datos del challenge (se descargan desde la web oficial)
+data/
+*.tif
+*.tiff
+
+# Pesos y resultados de nnU-Net (se descargan aparte)
+checkpoints/
+pretrained/
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+*.pth
+*.ckpt
+*.zip
+
+# Predicciones y salidas
+predictions*/
+logs/
+dist/
+*.parquet
+exploratory_analysis/figures/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+*.egg-info/
+
+# Sistema y editores
+.DS_Store
+.vscode/
+.idea/
