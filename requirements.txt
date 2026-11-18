@@ -1,0 +1,21 @@
+# Python 3.11, CUDA 12.8 (probado en GPU NVIDIA de 24 GB)
+# torch con CUDA: pip install torch==2.11.0 torchvision==0.26.0 --index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0
+torchvision==0.26.0
+nnunetv2==2.8.1
+dynamic-network-architectures==0.4.4
+batchgenerators==0.25.6
+batchgeneratorsv2==0.3.7
+acvl-utils==0.2.7
+numpy==2.4.6
+scipy==1.17.1
+scikit-image==0.26.0
+tifffile==2026.3.3
+pillow==13.0.0
+pandas==3.1.1
+SimpleITK==2.5.7
+# solo para el notebook inference.ipynb (además de Jupyter: pip install jupyterlab)
+matplotlib==3.11.2
+ipykernel==7.4.0
+# solo para descargar los pesos (download_weights.py)
+gdown==6.5.1
